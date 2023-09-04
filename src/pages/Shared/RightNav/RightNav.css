@@ -1,0 +1,66 @@
+.login-button-container {
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.right-nav-google-btn {
+  margin-bottom: 20px;
+  width: 200px;
+  padding: 10px 20px;
+  border: 1px solid #2b65e0;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #2b65e0;
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.right-nav-github-btn {
+  margin-bottom: 20px;
+  width: 200px;
+  padding: 10px 20px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.right-nav-github-btn:active,
+.right-nav-google-btn:active {
+  transform: scale(0.96);
+}
+
+.right-nav-google-btn span,
+.right-nav-github-btn span {
+  margin-left: 8px;
+}
+
+.social-media-container {
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.social-media-list {
+  list-style: none;
+  border: 1px solid #e7e7e7;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.social-media-list span {
+  font-size: 16px;
+  color: #706f6f;
+}
